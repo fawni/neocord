@@ -39,7 +39,7 @@ function utils.get_filetype()
 end
 
 function utils.get_asset_url(asset_name)
-  return string.format("https://raw.githubusercontent.com/IogaMaster/neocord/main/assets/icons/%s.png", asset_name)
+  return asset_name
 end
 
 function utils.get_logo_url(logo_name)
